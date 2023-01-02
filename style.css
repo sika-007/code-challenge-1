@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/simple-floral-background_23-2148869678.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: 2px solid black;
+    background-color: darkgray;
+    padding: 3px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content{
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 50px 40px; /*top-bottom and left-right*/
+    box-shadow: 0 0 8px;
+}
+
+.main-content .text-area {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area button {
+    background-color: rgb(66, 55, 55);
+    color: wheat;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button-area button:active {
+    background-color: lightblue;
+}
