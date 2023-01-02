@@ -40,10 +40,10 @@ const quoteList = [{
 //Now we apply the event listener
 btn.addEventListener("click", function() {
     const randNum = Math.floor(Math.random() * quoteList.length)
-    if (quote.textContent === quoteList[randNum].quote) {
+    if (quote.textContent === `'${quoteList[randNum].quote}'`) {
         quote.textContent = "'" + quoteList[randNum - 1].quote + "'"
         person.textContent = quoteList[randNum - 1].person
-        console.log(randNum-1)
+        console.log("alternative number used")
     } else {
         quote.textContent = "'" + quoteList[randNum].quote + "'"
         person.textContent = quoteList[randNum].person
